@@ -113,7 +113,7 @@ def load_model(
 
 
 def sample_one(
-    input_path: str = "assets/test_image.png",  # Can either be image file or folder with image files
+    input_path: str = "assets/baby_yoda.png",  # Can either be image file or folder with image files
     checkpoint_path: Optional[str] = None,
     num_frames: Optional[int] = None,
     num_steps: Optional[int] = None,
